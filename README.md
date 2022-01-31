@@ -19,7 +19,7 @@ This project contains a graph that has places of a city that are connected by th
    <li>Transaction History of the user is stored in a seperate text file named with the users name in which :source, destination, cost, discount coupon (if any), discount percentage (if any), total cost: are stored in comma seperated format.</li>
 </ol>
 
-# Overview of the Project:
+## Overview of the Project:
 The user has to sign up or login. We also maintain privacy for password. In the next step the user must choose an option from bookings, transaction history, password change, and account deletion.
 
 If the user selects the first option, then the user must select a city from Hyderabad Bengaluru and Chennai, these are the places where our services are available. Then a map will be displayed showing all the possible directions from a source location to a destination location with the distance between them. Then the user must enter the starting location or the source location and the destination location. Based on the source location and destination location we have taken 5 cases. The first case is that the source and the destination locations are wrong or there is a spelling mistake in them, or our services are not available at that place.
@@ -37,10 +37,10 @@ The user selects the fourth option then we asked for confirmation. If the user c
 .txt file that is named after the user’s name is deleted i;e the transaction history of that user is deleted.
 
 
-### Other Versions
+## Other Versions
 EazyFidner is written in <a href="https://github.com/rohithpala/EazyFinder_CVersion">C</a>, <a href="https://github.com/rohithpala/EazyFinder_JavaVersion">Java</a> & <a href="https://github.com/rohithpala/EazyFinder_PythonVersion">Python</a>
 
-## Python:
+### Python:
 <ul>
    <li><a href="https://github.com/rohithpala/EazyFinder_PythonVersion/tree/main/EazyFinderWithDatabase">Database Version</a></li>
    <li><a href="https://github.com/rohithpala/EazyFinder_PythonVersion/tree/main/EazyFinderWithoutDatabase">Non-Database Version</a></li>
